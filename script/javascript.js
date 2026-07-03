@@ -1,15 +1,13 @@
 function validateBooking() {
 
-    const name = document.getElementById("name").value;
-    const guests = document.getElementById("guests").value;
+    let name = document.getElementById("name").value;
+    let guests = document.getElementById("guests").value;
 
     if (name === "" || guests === "") {
-
-        alert("Please complete all booking fields.");
+        alert("Please fill in all fields");
         return false;
     }
 
-    alert("Booking submitted successfully!");
-
+    alert("Booking successful!");
     return true;
 }
