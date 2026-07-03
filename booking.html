@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Book a Visit</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cats.html">Cats</a>
+        <a href="booking.html">Booking</a>
+        <a href="menu.html">Menu</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <form onsubmit="return validateBooking()">
+
+        <input type="text"
+               id="name"
+               placeholder="Your Name">
+
+        <input type="number"
+               id="guests"
+               placeholder="Number of Guests">
+
+        <textarea placeholder="Special Requests"></textarea>
+
+        <button type="submit">
+            Submit Booking
+        </button>
+
+    </form>
+
+</div>
+
+<footer>
+    © 2026 UwU Cat Cafe
+</footer>
+
+</body>
+</html>
